@@ -17,15 +17,15 @@ public class ChooseModeActivity extends AppCompatActivity {
 
     public void goToPassengerSignIn(View view) {
         startActivity(new Intent(
-               // ChooseModeActivity.this,
-               // PassengerSignInActivity.class
+               ChooseModeActivity.this,
+               PassengerSignInActivity.class
         ));
     }
 
     public void goToDriverSignIn(View view) {
         startActivity(new Intent(
-                //ChooseModeActivity.this,
-              //  DriverSignInActivity.class
+                ChooseModeActivity.this,
+              DriverSignInActivity.class
         ));
     }
 }
