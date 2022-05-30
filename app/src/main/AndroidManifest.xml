@@ -29,7 +29,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDtrh3kKyL1uZtWX9UhC_0Sub2VZkDkh4M" />
+            android:value="************" />
 
         <activity
             android:name=".DriverMapsActivity"
